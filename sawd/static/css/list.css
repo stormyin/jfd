@@ -1,0 +1,33 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Roboto;
+	src: url("../font/Roboto-Italic.ttf");
+	font-size: 14px;
+}
+body{
+	width: 360px;
+	height: 640px;
+	overflow: auto;
+	min-height: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+header{
+	background-color: #aa0003;
+	height: 55px;
+	width: 100%;
+	line-height: 55px;
+	color: #fff;
+	text-align: center;
+	font-size: 24px;
+	letter-spacing: 3px;
+	overflow: hidden;
+}
+.input-group{
+    margin-top:0px positon:relative;
+}
+.article{
+	width: 360px;
+	height: 90px;
+}

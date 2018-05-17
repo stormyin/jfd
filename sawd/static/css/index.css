@@ -1,0 +1,76 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Roboto;
+	src: url("../font/Roboto-Italic.ttf");
+	font-size: 14px;
+}
+body{
+	width: 360px;
+	height: 640px;
+	overflow: auto;
+	min-height: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+.contain{
+	background-image: url(../images/sawd.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	min-height: 100%;
+}
+.top{
+	width: 360px;
+	height: 160px;
+}
+.top .rounded_rect{
+    width: 58%;
+    height: 100%;
+    float: left;
+    background-image: url(../images/sawd.jpg);
+    background-size: 95% 62.5%;
+	background-repeat: no-repeat;
+	background-position: 90% 40%;
+}
+.top .rounded_rect .college{
+	position: absolute;
+    top: 7%;
+    left: 20%;
+}
+.top .rounded_rect .title{
+	position: absolute;
+    top: 13%;	
+    left: 20%;
+}
+.top .circle_rect{
+    width: 42%;
+    height: 100%;
+    float: left;
+}
+#logo{
+    width: 102px;
+    height: 102px;
+	background-image: url(../images/sawd.jpg);
+    background-size: 100%;
+	background-repeat: no-repeat;
+    border-radius:50%;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+.content{
+	width: 360px;
+	height: 480px;
+	position: absolute;
+}
+.special{
+	width: 50%;
+	height: 100px;
+	float: left;
+}
+img{
+
+}
+p{
+	
+}
